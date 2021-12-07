@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: url("image/1.pn") no-repeat center center;
+    background-size: cover;
+    width :100%;
+    height:100vh;
+}
+.wrapper{
+    position :absolute;
+    top:50%;
+    left: 50%;
+    transform :translate(-50%,-50%);
+    width: 500px;
+    height:350px;
+}
+.wrapper .checkout_wrapper{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+
+.wrapper .checkout_wrapper .product_info{
+    width:45%;
+   background: #e85c4d;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   position: relative;
+}
+.wrapper .checkout_wrapper .product_info img{
+    width: 240px;
+    margin-top:30px;
+    margin-left: 5px;
+}
+.wrapper .checkout_wrapper .product_info content{
+    text-align:center;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.wrapper .checkout_wrapper .checkout_form{
+    width: 55%;
+    background: #fff;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    padding:50px 30px;
+}
+.wrapper .checkout_wrapper .checkout_form p{
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.wrapper .checkout_wrapper .checkout_form .section{
+    margin-bottom: 15px;
+}
+.wrapper .checkout_wrapper .checkout_form .section input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+
+}
+.wrapper .checkout_wrapper .checkout_form .section input[type="text"]:focus{
+    border-color:#e85c4d;
+}
+.wrapper .checkout_wrapper .checkout_form .section.last_section{
+display: flex;
+justify-content: space-between;
+}
+.wrapper .checkout_wrapper .checkout_form .section.section.last_section .item{
+    width: 48%;
+}
+.wrapper .checkout_wrapper .checkout_form .btn{
+    background:#e85c4d ;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+.wrapper .checkout_wrapper .checkout_form .btn a{
+    color: #fff;
+letter-spacing: 5px;
+display: block;
+}
